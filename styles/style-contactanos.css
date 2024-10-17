@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: white;
+}
+
+
+/*     FORM DE CONTACTO                */
+
+@media (max-width: 800px) {
+
+    
+    .form-register {
+        width: 200px;
+        background:black
+    }
+
+    .controls {
+        width: 100px;
+        background:black
+    }
+
+    .form-register .botones {
+        
+        width: 50%;
+        background:black
+        
+      }
+}
+
+
+ 
+.section-contacto{
+    background: white
+}
+.form-register {
+    width: 500px;
+    background: #25688f;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    color: white;
+    
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px ;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .form-register .botones {
+    background: #1f53c5;
+    border-radius: 3px;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 5px;
+    font-size: 16px;
+    width: 100%;
+    
+  }
+  
+
+
+/* Elevate */
+.elevate {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+/*   clas card    */
+
+.card {
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.card-center {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* Section 3*/ 
+
+
+@media (max-width: 800px) { 
+    .section-3 {
+        display: block;
+        align-items: center;
+    }
+    #Img-ping {
+        width: 60px;
+        height: 60px;
+        padding-right: 10%;
+    }
+
+
+
+}
+
+
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #5f93b9;
+    align-items: center;
+
+}
+
+.section-3  h2{
+    margin-top: 2%;
+    color: azure;
+    text-align: center;
+
+}
+.section-3  p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Img-ping {
+    width: 60px;
+    height: 60px;
+    margin-left: 200%;
+}
+
+/*  FOOTER */
+
+
+@media (max-width: 800px) {
+    .footer-container {
+        padding: 50px 0px 0px 0px;
+       display: block; 
+       justify-content: center;
+    }
+    
+    .footer p{
+        display: none;
+    }
+
+    .footer form {
+        display: none;
+    }
+
+    .footer img {
+        margin: 5%;
+    }
+
+}
+footer {
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/Img/odontologia.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 45vh;
+        color: white;
+        
+             
+}
+
+.footer-container {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer p{
+    padding: 8px;
+    text-align:start
+}
+
+#get {
+    text-align: center;
+}
+
+/*
+.Quick-Links li{
+    padding: 5px;
+}
+
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
+
+.Learn-more li{
+    padding: 5px;
+}
+
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
+}
+*/
+.footer form{
+    padding-bottom: 20px;  
+}
+.footer form input {
+    border-radius: 1px;
+    background: #24303c;
+    padding: 5px;
+    border: 1px solid #1f53c5;
+}
+
+.footer form button{
+    background: #1f53c5;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    
+
+}
+.footer img {
+    margin: 2%;
+}
+
+.footer {
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+
+}
+
+#Copyright {
+    text-align: center;
+    
+    
+}
+
+#redes { 
+    width: 30px;
+
+}

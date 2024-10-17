@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: white;
+}
+
+
+
+/* Elevate */
+.elevate {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+/*   clas card    */
+
+.card {
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.card-center {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* SECTION 01 */
+
+@media (max-width: 800px) {
+
+    .Section1 {
+        display: block;
+    }
+    .sub-section1 {
+        display: block;
+
+    } 
+
+    .sub-section2 {
+        display: block;
+    }
+
+
+    .sub-section1 p{
+        display: none;
+        
+        
+    }
+    .sub-section1 h3{
+        font-size: 18px;
+        margin: 2%;
+        text-align: center;
+        color: black; }
+
+
+    .sub-section2 p{
+        display: none;
+ 
+    }
+
+    .sub-section2 h3{
+        font-size: 25px;
+        
+        margin: 2%;
+        text-align: center;
+        color: black;
+    }
+
+
+    .video2 {
+        margin-top: 45%;
+        width: 100%;
+        align-items: center;
+        
+    
+    }
+
+
+}
+
+
+.video1 {
+    width: 100%;
+}
+
+.video2 {
+    margin-top: 35%;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+#icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.Section1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.section1-1 {
+    width: 100%;
+    
+    
+}
+
+.sub-section1 {
+    margin: 2%;
+    border: solid;
+    border-radius: 2%;
+    background-color: white;
+
+}
+
+.sub-section1 h3{
+    margin: 2%;
+    text-align: center;
+    color: black;
+}
+.sub-section1 p{
+    margin: 2%;
+    text-align: center;
+    color: black;
+    
+}
+
+.sub-section2 {
+    margin: 1%;
+    border: solid;
+    border-radius: 1%;  
+    width: 100%;
+    background-color: white;
+}
+
+.sub-section2 h3{
+    margin: 2%;
+    text-align: center;
+    color: black;
+}
+.sub-section2 p{
+    margin: 2%;
+    text-align: center;
+    color: black;
+    
+}
+
+
+/* Section 3*/ 
+
+
+@media (max-width: 800px) { 
+    .section-3 {
+        display: block;
+        align-items: center;
+    }
+    #Img-ping {
+        width: 60px;
+        height: 60px;
+        padding-right: 10%;
+    }
+
+
+
+}
+
+
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #5f93b9;
+    align-items: center;
+
+}
+
+.section-3  h2{
+    margin-top: 2%;
+    color: azure;
+    text-align: center;
+
+}
+.section-3  p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Img-ping {
+    width: 60px;
+    height: 60px;
+    margin-left: 200%;
+}
+
+/*  FOOTER */
+
+
+@media (max-width: 800px) {
+    .footer-container {
+        padding: 50px 0px 0px 0px;
+       display: block; 
+       justify-content: center;
+    }
+    
+    .footer p{
+        display: none;
+    }
+
+    .footer form {
+        display: none;
+    }
+
+    .footer img {
+        margin: 5%;
+    }
+
+}
+footer {
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/Img/odontologia.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 45vh;
+        color: white;
+        
+             
+}
+
+.footer-container {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer p{
+    padding: 8px;
+    text-align:start
+}
+
+#get {
+    text-align: center;
+}
+
+/*
+.Quick-Links li{
+    padding: 5px;
+}
+
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
+
+.Learn-more li{
+    padding: 5px;
+}
+
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
+}
+*/
+.footer form{
+    padding-bottom: 20px;  
+}
+.footer form input {
+    border-radius: 1px;
+    background: #24303c;
+    padding: 5px;
+    border: 1px solid #1f53c5;
+}
+
+.footer form button{
+    background: #1f53c5;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    
+
+}
+.footer img {
+    margin: 2%;
+}
+
+.footer {
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+
+}
+
+#Copyright {
+    text-align: center;
+    
+    
+}
+
+#redes { 
+    width: 30px;
+    background-color: rgb(74, 126, 152);
+
+}

@@ -1,0 +1,348 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: white;
+}
+
+.carousel-caption h5{
+    text-align: center;
+}
+
+.carousel-caption p{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+
+.btn {
+    margin-bottom: 5%;
+}
+
+/* SECTION --Filosifo 1     */
+
+.section-4 {
+    color: black;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    padding: 5%;
+}
+
+.philosophy{
+    width: 100%;
+    text-align: center;
+}
+
+.elevate {
+    text-align: center;
+    width: 100%;
+}
+
+#philosophy {
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+}
+
+.elevate h3{
+    margin-bottom: 5%;
+}
+
+.elevate p {
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+#arrow {
+    width: 80px;
+    height: 80px;
+    
+
+}
+/*   Media c */
+
+@media (max-width: 800px) {
+
+    .section-4 {
+        display: block;
+    }
+
+    #philosophy {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 400px;
+        height: 300px;
+
+    }
+}
+
+
+
+
+
+
+
+/* Section-- Services */ 
+
+.div-services {
+    display: flex;
+    margin: 5%;
+    border-radius: 2%;
+    border-color: #24303c;
+    
+    
+}
+
+#Services {
+    width: 40px;
+    height: 40px;
+     
+}
+
+.Sub-div {
+    text-align: center;
+    margin: 1%;
+    border: solid;
+    border-radius: 4%;
+    padding: 1%;
+    width: 100%;
+    background: white;
+}
+
+.Sub-div p {
+    font-size: 15px;
+    color: black;
+}
+
+.Sub-div h3{
+    color: black;
+}
+
+@media (max-width: 800px) {
+    .div-services {
+        display: block;
+    }
+
+}
+
+/* Section-Contac/strategy*/ 
+
+
+@media (max-width: 800px) {
+    .Section-2 {
+        display: block;
+    }
+    #Web-man {
+        display: none;
+    }
+
+}
+
+.Section-2 {
+    display: flex;
+    
+}
+
+#Web-man {
+    width: 500px;
+    height: 95%;
+}
+
+.Sub-div2 {
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+.Sub-div3 {
+    margin: 5%;
+}
+
+.Sub-div3-2 {
+    margin: 5%;
+    border: solid;
+    border-radius: 4%;
+    text-align: center;
+    padding: 3%;
+
+}
+
+#icon{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* Section 3*/ 
+
+
+@media (max-width: 800px) { 
+    .section-3 {
+        display: block;
+        align-items: center;
+    }
+    #Img-ping {
+        width: 60px;
+        height: 60px;
+        padding-right: 10%;
+    }
+
+
+
+}
+
+
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #5f93b9;
+    align-items: center;
+
+}
+
+.section-3  h2{
+    margin-top: 2%;
+    color: azure;
+    text-align: center;
+
+}
+.section-3  p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Img-ping {
+    width: 60px;
+    height: 60px;
+    margin-left: 200%;
+}
+
+/*  FOOTER */
+
+
+@media (max-width: 800px) {
+    .footer-container {
+        padding: 50px 0px 0px 0px;
+       display: block; 
+       justify-content: center;
+    }
+    
+    .footer p{
+        display: none;
+    }
+
+    .footer form {
+        display: none;
+    }
+
+    .footer img {
+        margin: 5%;
+    }
+
+}
+footer {
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/Img/odontologia.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 45vh;
+        color: white;
+        
+             
+}
+
+.footer-container {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer p{
+    padding: 8px;
+    text-align:start
+}
+
+#get {
+    text-align: center;
+}
+
+/*
+.Quick-Links li{
+    padding: 5px;
+}
+
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
+
+.Learn-more li{
+    padding: 5px;
+}
+
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
+}
+*/
+.footer form{
+    padding-bottom: 20px;  
+}
+.footer form input {
+    border-radius: 1px;
+    background: #24303c;
+    padding: 5px;
+    border: 1px solid #1f53c5;
+}
+
+.footer form button{
+    background: #1f53c5;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    
+
+}
+.footer img {
+    margin: 2%;
+}
+
+.footer {
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+
+}
+
+#Copyright {
+    text-align: center;
+    
+    
+}
+
+#redes { 
+    width: 30px;
+
+}
